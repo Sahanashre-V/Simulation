@@ -1,0 +1,41 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #af6a6a;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: #5574ca;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: transparent;
+}
+
+.card.match{
+    background-color: lightgreen;
+    cursor: default;
+}
+
+.card.flip{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    margin-top: 40px;
+}
+
+#game{
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
