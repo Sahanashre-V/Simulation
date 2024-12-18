@@ -1,0 +1,46 @@
+body {
+    margin: 0; 
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+  }
+  
+  .grid {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff; 
+  }
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .invader {
+    background-color: rgb(231, 41, 146);
+    border-radius: 10px;
+  }
+  
+  .shooter {
+    background-color: rgb(230, 197, 13);
+  }
+  
+  .laser {
+    background-color: rgb(240, 202, 132);
+  }
+  
+  .boom {
+    background-color: red;
+  }
+  .results{
+    text-align: center;
+  }
+  
