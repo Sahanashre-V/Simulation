@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .scoreboard {
+    margin: 20px 0;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    grid-template-rows: repeat(6, 60px);
+    gap: 5px;
+    margin: 20px auto;
+    width: max-content;
+    background-color: #00509e;
+    border: 4px solid #003f7f;
+    padding: 5px;
+  }
+  
+  .cell {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .cell.player-one {
+    background-color: #ff4500;
+  }
+  
+  .cell.player-two {
+    background-color: #ffd700;
+  }
+  
+  #reset {
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  #reset:hover {
+    background-color: #005f99;
+  }
+  
