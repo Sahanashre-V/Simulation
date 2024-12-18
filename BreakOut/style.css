@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  #game-board {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: #000;
+    border: 2px solid #fff;
+  }
+  .block {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: #e22f03;
+  }
+  .paddle {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    bottom: 0;
+    background-color: #3498db;
+  }
+  .ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #570cb9;
+  }
+  #score {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
